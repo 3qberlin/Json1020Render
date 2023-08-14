@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
+body {
+  font-family: "Noto Sans TC", sans-serif !important;
+}
+
+.border-l-system {
+  content: "";
+  border: 2px solid red;
+  left: -10px;
+  position: absolute;
+  height: 24px;
+  border-radius: 2px 1px 1px 2px;
+}
+.border-l-function {
+  content: "";
+  border: 2px solid blueviolet;
+  left: -10px;
+  position: absolute;
+  height: 24px;
+  border-radius: 2px 1px 1px 2px;
+}
+
+.relative {
+  position: relative;
+}/*# sourceMappingURL=all.css.map */
