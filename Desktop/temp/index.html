@@ -1,241 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="./style/all.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.2.2/font/bootstrap-icons.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
-      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-auto bg-light sticky-top d-none d-md-block">
-          <div
-            class="d-flex flex-sm-column flex-row flex-nowrap bg-light align-items-center sticky-top"
-          >
-            <p class="w-100 d-flex justify-content-end mb-0">
-              <i class="bi bi-arrow-left-circle fs-5"></i>
-            </p>
-            <div class="d-flex w-100 my-1 justify-content-center">
-              <a
-                href="/"
-                class="text-decoration-none"
-                data-bs-toggle="tooltip"
-                title="abc"
-              >
-                <img src="./imgs/logo 1.png" alt="logo" />
-              </a>
-            </div>
-            <div class="d-flex justify-content-end w-100 my-2">
-              <i
-                class="bi bi-briefcase-fill d-flex align-items-center me-3 fs-5"
-              ></i
-              ><i
-                class="bi bi-arrow-clockwise d-flex align-items-center fs-5"
-              ></i>
-            </div>
+    <!-- <script src="./js.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-JavaScript-Templates/3.20.0/js/tmpl.min.js"
+        integrity="sha512-yQJVqoTPFSC73MaslsQaVJ0zHku4Cby3NpQzweSYju+kduWspfF4HmJ3zAo1QGERfsoXdf45q54ph8XTjOlp8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
 
-            <div class="mt-1 relative d-flex align-items-center mb-0">
-              <div class="me-4 relative d-flex align-items-center">
-                <i
-                  class="fa-solid fa-house-chimney-window"
-                  data-bs-toggle="tooltip"
-                  title="abc"
-                ></i>
-                <span class="ms-1 fw-medium">系統名稱</span>
-              </div>
-            </div>
+<body>
+    <input type="button" value="click" class="btn">
+    <div class="filter">
+        <input type="button" value="免費">
+        <input type="button" value="收費">
+        abc
+        <ul style="border:1px solid gray;height:auto;">
+            <li>
 
-            <select
-              class="form-select form-select-sm mt-2"
-              aria-label="navBar company"
-            >
-              <option selected>系統商</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-            <select
-              class="form-select form-select-sm mt-1"
-              aria-label="navBar companyBranch"
-            >
-              <option selected>總部</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
+            </li>
+            <li>
 
-            <div class="w-100 mt-3 relative d-flex align-items-center">
-              <i class="bi bi-gear-fill d-flex"></i>
-              <span class="ms-1 fw-medium">功能列表</span>
-            </div>
-            <div class="sidebar-menu border w-100">
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#" class="text-decoration-none">
-                    <i class="fa-solid fa-arrow-up-wide-short"></i>
-                    <span>第一行</span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#demo"
-                    class="text-decoration-none"
-                    data-bs-toggle="collapse"
-                  >
-                    <i class="fa-solid fa-arrow-up-wide-short"></i>
-                    <span>第二行</span>
-                    <i
-                      class="fa-solid fa-chevron-down"
-                      onclick="faChevronDown()"
-                    ></i>
-                  </a>
-                  <ul id="demo" class="collapse list-unstyled">
-                    <li>abc1</li>
-                    <li>abc2</li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#" class="text-decoration-none">
-                    <i class="fa-solid fa-arrow-up-wide-short"></i>
-                    <span>第三行</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="text-decoration-none">
-                    <i class="fa-solid fa-arrow-up-wide-short"></i>
-                    <span>第四行</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="text-decoration-none">
-                    <i class="fa-solid fa-arrow-up-wide-short"></i>
-                    <span>第五行</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="text-decoration-none">
-                    <i class="fa-solid fa-arrow-up-wide-short"></i>
-                    <span>第六行</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- nav -->
-      <!-- <nav
-        class="navbar navbar-expand-lg bg-body-tertiary bg-info d-block d-md-none"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Another action</a>
-                  </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav> -->
-      <div class="col-sm min-vh-100">
-        <!-- content -->
-        <div class="col-sm py-3">
-          <nav class="border" style="height: 30px"></nav>
-        </div>
-      </div>
+            </li>
+        </ul>
     </div>
-
     <script>
-      var tooltipTriggerList = [].slice.call(
-        document.querySelectorAll('[data-bs-toggle="tooltip"]')
-      );
-      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl);
-      });
-      function faChevronDown() {
-        $(".fa-chevron-down").toggleClass("translateState");
-      }
+        let data = [
+            {
+                item: "bicycle",
+                charge: "yes",
+                cost: 100
+            },
+            {
+                item: "car",
+                charge: "no",
+                cost: 0
+            },
+            {
+                item: "airplane",
+                charge: "yes",
+                cost: 5000
+            },
+        ];
+        console.log('data', data);
+        const stationFilter = document.querySelector('.filter');
+        console.log('stationFilter', stationFilter);
+        let liStr = '';
+        let btnStr = `<input type="button" value="免費">
+        <input type="button" value="收費">`;
+        let yesLtr = '';
+        let noLtr = '';
+        data.forEach(function (item, index) {
+            console.log('item', item)
+            console.log(`借用的項目${item.item}，是否需要借用費${item.charge}`);
+            console.log(`<li>借用的項目${item.item}，是否需要借用費${item.charge}</li>`);
+            liStr += `<li>借用的項目${item.item}，是否需要借用費${item.charge}</li>`;
+            // console.log('data.item',data.item)
+            // let yes = '';
+            // let no = '';
+            if (item.charge == 'yes') {
+                yesLtr += `<li>借用的項目${item.item}，是否需要借用費${item.charge}</li>`
+            } else if (item.charge == 'no') {
+                noLtr += `<li>借用的項目${item.item}，是否需要借用費${item.charge}</li>`
+            }
+
+        })
+        stationFilter.innerHTML = btnStr + liStr;
+        console.log('liStr', liStr);
+        stationFilter.addEventListener("click", function (e) {
+            // console.log('e', e);
+            console.log('e', e.target.value);
+            if (e.target.value == '免費') {
+                stationFilter.innerHTML = btnStr + noLtr;
+            } else if (e.target.value == '收費') {
+                stationFilter.innerHTML = btnStr + yesLtr;
+            }
+        })
+        console.log('yes', yesLtr);
+        console.log('no', noLtr);
     </script>
-  </body>
+</body>
+
 </html>
